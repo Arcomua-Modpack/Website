@@ -3,7 +3,7 @@
 }
 
 ::selection {
-	background-color: #ff3737;
+	background-color: #333333;
 }
 
 body {
@@ -69,7 +69,7 @@ header .menu a.selected::after {
 .header-logo {
 	height: 60%;
 	flex-shrink: 0;
-	transition: all 1s cubic-bezier(0, 0.57, 0.06, 1);
+/*	transition: all 1s cubic-bezier(0, 0.57, 0.06, 1); */
 }
 
 .header-logo:hover {
@@ -127,4 +127,15 @@ section h2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/* Modified start here */
+/* Copied from vue.js */
+.tagline {
+	font-size: 76px;
+	line-height: 1.25;
+	font-weight: 900;
+	letter-spacing: -1.5px;
+	max-width: 960px;
+	margin: 0 auto;
 }
