@@ -41,7 +41,7 @@ section img {
 .description {
 	max-width: 960px;
 	line-height: 1.5;
-	color: #dbe4ec;
+	color: #ffffff;
 	transition: color .5s;
 	font-size: 22px;
 }
@@ -62,4 +62,27 @@ section img {
 	color: #ffffff;
 	max-width: 80%;
 	margin: 0 auto;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.box {
+	width: 75%;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.box-title {
+	font-size: 2.1875em;
+	font-weight: 300;
+}
+
+.box-description {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #ffffff;
 }
