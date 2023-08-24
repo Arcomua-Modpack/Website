@@ -128,14 +128,3 @@ section h2 {
 	align-items: center;
 	justify-content: center;
 }
-
-/* Modified start here */
-/* Copied from vue.js */
-.tagline {
-	font-size: 76px;
-	line-height: 1.25;
-	font-weight: 900;
-	letter-spacing: -1.5px;
-	max-width: 960px;
-	margin: 0 auto;
-}

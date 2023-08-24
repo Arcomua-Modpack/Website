@@ -27,3 +27,39 @@ section img {
 	border-radius: 6px;
 	margin-top: 16px;
 }
+
+/* Modified start here */
+/* Copied from vuejs.org */
+.tagline {
+	font-size: 76px;
+	line-height: 1.25;
+	font-weight: 900;
+	letter-spacing: -1.5px;
+	max-width: 960px;
+}
+
+.description {
+	max-width: 960px;
+	line-height: 1.5;
+	color: #dbe4ec;
+	transition: color .5s;
+	font-size: 22px;
+}
+
+/* Copied from liquidbounce.net */
+.promo-title {
+	text-align: center;
+	font-size: 3.25em;
+	font-weight: 100;
+	color: #ffffff;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.promo-description {
+	text-align: center;
+	font-size: 1.25em;
+	color: #ffffff;
+	max-width: 80%;
+	margin: 0 auto;
+}
