@@ -1,6 +1,38 @@
 section {
 	align-items: center;
 	justify-content: center;
+	background-color: transparent;
+}
+
+section:nth-child(1) {
+	gap: 4em;
+	justify-content: space-between;
+	backdrop-filter: none;
+}
+
+section .name {
+	display: flex;
+	gap: 2em;
+}
+
+section:nth-child(1) .real-name h2 {
+	margin-bottom: 4px;
+}
+
+section:nth-child(1) .real-name span {
+	opacity: 0.8;
+}
+
+section:nth-child(1) .real-name {
+	animation: slide-btt 1s cubic-bezier(0, 0.57, 0.06, 1) 0.2s backwards;
+}
+
+section:nth-child(1) .nick-name {
+	animation: slide-btt 1s cubic-bezier(0, 0.57, 0.06, 1) 0.3s backwards;
+}
+
+section:nth-child(1) img {
+	animation: slide-rtl 1s cubic-bezier(0, 0.57, 0.06, 1) 0.4s backwards;
 }
 
 section img {
@@ -8,35 +40,40 @@ section img {
 	border-radius: 8px;
 }
 
-.image-info {
-	flex-direction: column;
-	font-size: 12px;
-	text-align: center;
-	margin-top: 12px;
-}
-
-.image-info b {
-	margin-bottom: 8px;
-}
-
-section:nth-child(1) {
-	flex-direction: row-reverse;
-	backdrop-filter: none;
-}
-
 section:nth-child(2) {
-	flex-direction: column;
+	display: flex;
 }
 
-.cds {
-	display: flex;
-	gap: 32px;
-}
-
-.cds > div {
+section:nth-child(3) {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	gap: 2em;
+}
+
+section h2 {
+	font-size: 48px;
+}
+
+section h3 {
+	font-size: 24px;
 }
 
 /* Modify start here */
+.theButton {
+	background-color: transparent;
+	border: 2px #00af5c solid;
+	border-radius: 10000px;
+	padding: 18px 42px;
+	font-size: 1.125em;
+	color: #00af5c;
+}
+
+.NoDeco {
+	text-decoration: none;
+}
+
+.Lineup {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
