@@ -1,6 +1,7 @@
 section {
 	align-items: center;
 	justify-content: center;
+	background-color: transparent;
 }
 
 section:nth-child(1) {
@@ -39,6 +40,13 @@ section img {
 	border-radius: 8px;
 }
 
+.image-info {
+	flex-direction: column;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 12px;
+}
+
 section:nth-child(2) {
 	display: flex;
 }
@@ -51,4 +59,40 @@ section:nth-child(3) {
 
 section h2 {
 	font-size: 48px;
+}
+
+.cds {
+	display: flex;
+	gap: 32px;
+}
+
+.cds>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Modify start here */
+
+.coloredSection {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.NoDeco {
+	text-decoration: none;
+}
+
+.Lineup {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.theButton {
+	background-color: transparent;
+	border: 2px white solid;
+	border-radius: 10000px;
+	padding: 18px 42px;
+	font-size: 1.125em;
+	color: white;
 }

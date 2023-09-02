@@ -72,6 +72,10 @@ section h3 {
 	text-decoration: none;
 }
 
+.wpColor {
+	color: #6c93ec;
+}
+
 .Lineup {
 	display: flex;
 	flex-direction: column;
