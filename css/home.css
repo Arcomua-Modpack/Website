@@ -1,18 +1,10 @@
 body {
-	
 	background-position: bottom;
 }
 
-#promo {
+section {
 	flex-direction: column;
-	padding-bottom: 100vh;
-	padding-top: 10vh;
-}
-
-#promo-2 {
-	flex-direction: column;
-	padding-bottom: 64px;
-	/* padding-top: 50vh; */
+	padding-top: 64px;
 }
 
 section:nth-child(1) {
