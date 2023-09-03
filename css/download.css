@@ -1,4 +1,11 @@
+body {
+	background: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 section {
+	padding: 50vh;
 	align-items: center;
 	justify-content: center;
 	background-color: transparent;

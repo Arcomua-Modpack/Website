@@ -18,6 +18,9 @@ body {
 	color: #fff;
 	scrollbar-gutter: stable;
 	overflow: hidden scroll;
+	background: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header {
@@ -87,8 +90,8 @@ header .menu a.selected::after {
 section {
 	display: flex;
 	width: 100%;
-	height: 100vh;
-	position: sticky;
+	height: 500;
+	position: relative;
 	top: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -127,4 +130,12 @@ section h2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+	section {
+		width: 100%;
+		height: 500;
+		background-size: cover;
+	}
 }
